@@ -9,10 +9,13 @@ service:
   language: Ruby
   framework: Sinatra
   description: 'Used by the Customer Support team to manage inbound support requests. '
-  aliases: 
+  aliases:
+  - Support-Console
+  - support-console
+  - support_console
   tags: 
   repositories:
-  - name: OL-Demo/support_console
+  - name: Todd-OL-Scratch/support_console
     path: "/"
     provider: github
   tools:
