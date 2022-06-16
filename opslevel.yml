@@ -1,7 +1,7 @@
 ---
 version: 1
 service:
-  name: support-console
+  name: support_console
   lifecycle: generally_available
   tier: tier_3
   product: 
