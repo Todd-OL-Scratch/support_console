@@ -5,7 +5,7 @@ service:
   lifecycle: generally_available
   tier: tier_3
   product: 
-  owner: internal_tools
+  owner: nonexistent_team
   language: Ruby
   framework: Sinatra
   description: 'Used by the Customer Support team to manage inbound support requests. '
