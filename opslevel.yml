@@ -11,6 +11,7 @@ service:
   description: 'Used by the Customer Support team to manage inbound support requests. '
   aliases:
   - support_console
+  - supportconsole
   tags: 
   repositories:
   - name: Todd-OL-Scratch/support_console
