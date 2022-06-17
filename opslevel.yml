@@ -13,7 +13,7 @@ service:
    - support_console
   tags: 
   repositories:
-  - name: Todd-OL-Scratch/support_console
+  - name: Todd-OL-Scratch/support_console_redux
     path: "/"
     provider: github
   tools:
