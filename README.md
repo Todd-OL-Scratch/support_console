@@ -17,14 +17,3 @@ ________________________
 MIT License
 
 http://www.opensource.org/licenses/mit-license
-
-
-
-
-
-        violationRules {
-            rule {
-                limit {
-                    minimum = 0.7
-                }
-            }
