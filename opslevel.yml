@@ -5,6 +5,7 @@ service:
   lifecycle: generally_available
   tier: tier_3
   product: 
+  system: test
   owner: internal_tools
   language: Ruby
   framework: Sinatra
