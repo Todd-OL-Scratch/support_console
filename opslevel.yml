@@ -15,9 +15,9 @@ service:
   tags: 
     - key: service-platform
       value: multiverse
-    # Ensure compliance with this comment
+    # Ensure compliance with Hudl's data classiciation policy. https://sync.hudlnet.com/x/1IPwE
     - key: data-classification
-      value: sensitive #(public|internal|restricted|sensitive|no-data|pending)
+      value: pending #(public|internal|restricted|sensitive|no-data|pending)
   repositories:
   - name: Todd-OL-Scratch/support_console
     path: "/"
