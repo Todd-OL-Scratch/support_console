@@ -13,6 +13,11 @@ service:
   aliases:
    - support_console
   tags: 
+    - key: service-platform
+      value: multiverse
+    # Ensure compliance with this comment
+    - key: data-classification
+      value: sensitive #comment
   repositories:
   - name: Todd-OL-Scratch/support_console
     path: "/"
