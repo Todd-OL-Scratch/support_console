@@ -5,7 +5,7 @@ service:
   lifecycle: generally_available
   tier: tier_3
   product: 
-  system: test
+  system: superb_system
   owner: internal_tools
   language: Ruby
   framework: Sinatra
@@ -17,7 +17,7 @@ service:
       value: multiverse
     # Ensure compliance with this comment
     - key: data-classification
-      value: sensitive #comment
+      value: sensitive #(public|internal|restricted|sensitive|no-data|pending)
   repositories:
   - name: Todd-OL-Scratch/support_console
     path: "/"
